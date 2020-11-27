@@ -3,10 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_one"
-    app:startDestination="@id/oneFragment2">
+    app:startDestination="@id/oneOneFragment">
     <fragment
-        android:id="@+id/oneFragment2"
-        android:name="com.lanic.navigationsample.OneFragment"
-        android:label="OneFragment"
-        tools:layout="@layout/fragment_one"/>
+        android:id="@+id/oneOneFragment"
+        android:name="com.lanic.navigationsample.OneOneFragment"
+        android:label="OneOneFragment" />
 </navigation>

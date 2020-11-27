@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_two">
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_two"
+    app:startDestination="@id/twoOneFragment">
 
+    <fragment
+        android:id="@+id/twoOneFragment"
+        android:name="com.lanic.navigationsample.TwoOneFragment"
+        android:label="TwoOneFragment" />
 </navigation>

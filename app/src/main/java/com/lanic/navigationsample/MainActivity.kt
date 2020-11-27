@@ -20,9 +20,8 @@ class MainActivity : AppCompatActivity() {
     private val twoFragment by lazy { TwoFragment() }
     private val threeFragment by lazy { ThreeFragment() }
     private val fourFragment by lazy { FourFragment() }
-    private val fiveFragment by lazy { FiveFragment() }
 
-    private val fragments = listOf(oneFragment, twoFragment, threeFragment, fourFragment, fiveFragment)
+    private val fragments = listOf(oneFragment, twoFragment, threeFragment, fourFragment)
 
     private val mainAdapter by lazy { MainAdapter(this, fragments) }
 
@@ -39,8 +38,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.oneFragment -> 0
                 R.id.twoFragment -> 1
                 R.id.threeFragment -> 2
-                R.id.fourFragment -> 3
-                else -> 4
+                else -> 3
             }
             binding.vpMain.currentItem = page
             true

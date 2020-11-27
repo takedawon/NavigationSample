@@ -9,11 +9,12 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".FiveFragment">
+        tools:context=".OneOneFragment">
 
-        <fragment
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:text="테스트중입니다." />
 
     </FrameLayout>
 </layout>

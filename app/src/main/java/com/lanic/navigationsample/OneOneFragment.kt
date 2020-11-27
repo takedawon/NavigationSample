@@ -6,18 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.lanic.navigationsample.base.BaseFragment
-import com.lanic.navigationsample.databinding.FragmentTwoBinding
+import com.lanic.navigationsample.databinding.FragmentOneOneBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-
-class TwoFragment : BaseFragment<FragmentTwoBinding>(R.layout.fragment_two) {
-
+class OneOneFragment : BaseFragment<FragmentOneOneBinding>(R.layout.fragment_one_one) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
 
     }
 }
